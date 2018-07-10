@@ -9,5 +9,5 @@ while i < 10:
 		print("File " + str(i) + " doesn't exist. - Moving on...")
 		i += 1
 	else:
-		print("Saved file " + str(i) + ".gif")
+		print("Saved file number " + str(i))
 		i += 1
