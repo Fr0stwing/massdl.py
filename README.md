@@ -18,7 +18,7 @@ Cases this could be useful:
 
  The urllib request should then be as follows:
  ```
- urllib.request.urlretrieve("http://example.com/image" + str(startNum), "nameHere" + str(startNum) + ".png")
+ urllib.request.urlretrieve("http://example.com/image" + str(startNum) + ".png", "nameHere" + str(startNum) + ".png")
  ```
 
  `startNum` is counted like an `i`, so this is what's incrementing each time.
