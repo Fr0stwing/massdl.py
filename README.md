@@ -17,6 +17,7 @@ Cases this could be useful:
  - `stopNum = 23`
 
  The urllib request should then be as follows:
- `urllib.request.urlretrieve("http://example.com/image" + str(startNum), "nameHere" + str(startNum) + ".png")`
+ ```urllib.request.urlretrieve("http://example.com/image" + str(startNum), "nameHere" + str(startNum) + ".png")```
  `startNum` is counted like an `i`, so this is what's incrementing each time.
+ 
  This would be downloading `http://example.com/image1.png` as `nameHere1.png`, all the way up to 23.
